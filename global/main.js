@@ -25,13 +25,3 @@ console.log(process.memoryUsage());
 //高分辨时间间隔测量
 a = process.hrtime();
 console.log(process.hrtime(a));
-
-let kick = [1, "a"];
-
-let x = 10;       // 允许
-let x = 6;       // 不允许
-
-{
-    let x = 10;   // 允许
-    let x = 6;   // 不允许
-}
